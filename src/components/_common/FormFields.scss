@@ -1,0 +1,15 @@
+@import '../../colors.scss';
+
+.text-field{
+  background-color: $c-login-textfield-bg !important;
+}
+
+.form-field-wrap{
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.has-error{
+  border-color: #a94442 !important;
+  color: #a94442 !important;
+}

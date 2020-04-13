@@ -1,0 +1,130 @@
+@import '../../../colors';
+
+.no-decoration{
+  text-decoration: none !important;
+  outline: 0;
+}
+
+.padded{
+  margin-left:20px;
+}
+
+.menu-item{
+  outline: 0;
+  height:60px;
+  padding-left: 30px;
+  line-height: 60px;
+  width:100%;
+  position:relative;
+  color: #FCF7F8;
+}
+
+.menu-item-title{
+  outline: 0;
+  padding-top:10px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  position:relative;
+  line-height: 40px;
+  color: $c-sidebar-item-textcolor;
+}
+
+.menu-item-link{
+  padding-top:1px;
+  outline: 0;
+  text-decoration: none;
+  line-height: 60px;
+  font-weight: 100;
+  font-size: 1.3em;
+  vertical-align: middle;
+  color: $c-sidebar-item-textcolor;
+}
+
+
+.menu-item-link:hover{
+  text-decoration: none;
+  color: $c-sidebar-item-textcolor;
+}
+
+.menu-item-link-active{
+  color: #222222;
+}
+
+.active{
+  color: #555555;
+}
+
+
+/* Burger Menu stuff */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: $c-sidebar-bg;
+  padding: 0px 0px 0;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #30323D;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 0;
+}
+
+/* Individual item */
+.bm-item {
+
+  width:100%;
+
+}
+
+.bm-item:hover{
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: $c-sidebar-content-overlay;
+}

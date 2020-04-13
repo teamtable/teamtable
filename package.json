@@ -1,0 +1,65 @@
+{
+  "name": "teamtable",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.7.0",
+    "@material-ui/icons": "^3.0.2",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "airbnb": "0.0.2",
+    "bootstrap": "^4.3.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-extra-rules": "0.0.0-development",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.4",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.4.1",
+    "lodash.debounce": "^4.0.8",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-alice-carousel": "^1.16.0",
+    "react-beautiful-dnd": "^10.1.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-burger-menu": "^2.6.12",
+    "react-devtools": "^3.6.3",
+    "react-document-meta": "^3.0.0-beta.2",
+    "react-dom": "^16.12.0",
+    "react-ga": "^2.7.0",
+    "react-on-screen": "^2.1.1",
+    "react-overlays": "^1.2.0",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.2.0",
+    "react-svg": "^7.2.14",
+    "reactstrap": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.4.1",
+    "styled-tools": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.0",
+    "eslint-plugin-react": "^7.16.0"
+  }
+}

@@ -1,0 +1,35 @@
+<script>
+function addDomain() {
+	console.log("Entered addDomain function");
+	document.getElementById("add-domains-form").reset();
+      var data= $('#domain-names').material_chip('data');
+        alert(data[0].tag);
+        console.log(data[0]);
+}
+</script>
+<form id="add-domains-form" action="">
+  <input type="text" id="add-domains-input" placeholder="Search Your Domain name">
+  <div id="add-domain-button" class="btn-gradient" type="button" onclick="addDomain()">+</div>
+</form>
+
+<div id="domain-names" class="chips chips-placeholder">
+</div>
+
+<script>
+
+// Get the input field
+var input = document.getElementById("add-domains-input");
+
+if (input != null) {
+	// // Execute a function when the user releases a key on the keyboard
+	input.addEventListener("keyup", function(event) {
+	  // Number 13 is the "Enter" key on the keyboard
+	  if (event.keyCode === 32){
+		// Cancel the default action, if needed
+		event.preventDefault();
+		// Trigger the button element with a click
+		document.getElementById("add-domain-button").click();
+	  }
+	});
+}
+</script>

@@ -1,0 +1,16 @@
+@import '../../../colors.scss';
+
+.help-block {
+  font-size: 12px;
+}
+.help-block {
+  position: absolute;
+  display: block;
+  margin-bottom: 10px;
+  color: $c-login-textfield-bg;
+}
+
+.text-field-wide{
+  width:100%;
+  padding-bottom: 20px;
+}

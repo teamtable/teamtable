@@ -1,0 +1,21 @@
+@import '../../colors.scss';
+
+#content-header-wrap{
+  padding-left:90px;
+  background-color: $c-content-header-bg;
+  height: 60px;
+  width: 100%;
+  display: inline-block;
+}
+
+.center-vertically{
+  line-height: 60px !important;
+  display:inline !important;
+  vertical-align: center;
+}
+
+.content-header-buttons{
+  float: right;
+  padding-right: 30px;
+  padding-top: 12px;
+}

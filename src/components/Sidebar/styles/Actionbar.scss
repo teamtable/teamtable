@@ -1,0 +1,85 @@
+@import '../../../colors.scss';
+
+$box-height: 60px;
+
+#menu-button-separator{
+  height:40px;
+  width:60px;
+}
+
+#guestNav{
+  height: 100%;
+  width: 100%;
+}
+
+
+.menu-icon{
+  color:white;
+  margin-top:2.5px;
+}
+
+.icon-spacer{
+  position:relative;
+  height: 40px;
+}
+
+.nav-wrap {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-shrink: 0;
+  width:60px;
+  color: $c-sidebar-icon;
+  background-color: $c-actionbar-bg;
+  margin:0;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.nav-inner{
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  alignment: left;
+  min-height: 100vh;
+}
+
+.nav-icons-wrap{
+  display:inline-block;
+  padding: 0;
+}
+
+.nav-action-icons-wrap{
+  bottom: 0;
+  position:absolute;
+  padding-bottom: 16px;
+  display:block;
+}
+
+
+.nav-icon{
+  display:inline-block;
+  width:60px;
+  position:relative;
+}
+
+
+.nav-icon-svg{
+  width: 20px;
+  height: 40px;
+  pointer-events: none;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-icon-svg{
+  height:40px;
+}

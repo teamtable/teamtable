@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://teamtable.io/</loc>
+    <lastmod>2019-11-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:title>Projects dashboard</image:title>
+      <image:loc>https://teamtable.io/images/landingpage/projects-dashboard.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:title>Project workspace with todo lists for work fields</image:title>
+      <image:loc>https://teamtable.io/images/landingpage/project-workspace-field-todo-lists.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:title>Project workspace of a Kanban project with sidebar open</image:title>
+      <image:loc>https://teamtable.io/images/landingpage/project-workspace-kanban-sidebar.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:title>Add a new list</image:title>
+      <image:loc>https://teamtable.ioimages/landingpage/project-workspace-add-list.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:title>Edit a project and add members</image:title>
+      <image:loc>https://teamtable.ioimages/landingpage/projects-dashboard-edit-a-project.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>
